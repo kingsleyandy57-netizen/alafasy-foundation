@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alafasy Charity Foundation</title>
+    <!-- Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital@0;1&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .arabic-font { font-family: 'Amiri', serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 flex flex-col min-h-screen">
+
+    <!-- HEADER & NAVIGATION -->
+    <header class="bg-emerald-900 text-white sticky top-0 z-40 shadow-md">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <div class="bg-amber-400 text-emerald-900 p-2 rounded-full font-bold text-xl">
+                    <i class="fa-solid fa-moon"></i>
+                </div>
+                <div>
+                    <span class="text-xl font-bold tracking-wide block">ALAFASY</span>
+                    <span class="text-xs text-amber-400 tracking-widest uppercase block -mt-1">Foundation</span>
+                </div>
+            </div>
+            <nav class="hidden md:flex space-x-8 font-medium text-sm">
+                <a href="#about" class="hover:text-amber-400 transition">Our Mission</a>
+                <a href="#campaigns" class="hover:text-amber-400 transition">Campaigns</a>
+                <a href="#quran" class="hover:text-amber-400 transition">Quran & Legacy</a>
+            </nav>
+            <a href="#campaigns" class="bg-amber-400 hover:bg-amber-500 text-emerald-950 font-bold px-6 py-2.5 rounded-full transition shadow-md text-sm">
+                Donate Now
+            </a>
+        </div>
+    </header>
+
+    <main class="flex-grow">
+        <!-- HERO SECTION -->
+        <section class="relative bg-emerald-950 text-white py-24 md:py-32 overflow-hidden">
+            <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]"></div>
+            <div class="container mx-auto px-6 relative z-10 max-w-4xl text-center">
+                <span class="arabic-font text-3xl md:text-4xl text-amber-400 block mb-4">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</span>
+                <h1 class="text-4xl md:text-6xl font-bold mb-6 tracking-tight">Voices of Hope, Echoes of Charity</h1>
+                <p class="text-emerald-100 text-lg md:text-xl mb-8 max-w-2xl mx-auto font-light leading-relaxed">
+                    Inspired by the beautiful recitation and global outreach of Sheikh Mishary Rashid Alafasy, we bridge the gap between your generosity and those in dire need worldwide using secure digital networks.
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center gap-4">
+                    <a href="#campaigns" class="bg-amber-400 hover:bg-amber-500 text-emerald-950 font-bold px-8 py-3.5 rounded-xl transition text-base shadow-lg">
+                        View Active Appeals
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- IMPACT METRICS -->
+        <section class="bg-white border-b border-slate-100 py-10 shadow-sm relative z-20 -mt-8 max-w-5xl mx-auto rounded-2xl px-6 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+            <div>
+                <p class="text-3xl font-bold text-emerald-800">12+</p>
+                <p class="text-sm text-slate-500 font-medium">Countries Reached</p>
+            </div>
+            <div>
+                <p class="text-3xl font-bold text-emerald-800">$2.4M</p>
+                <p class="text-sm text-slate-500 font-medium">Funds Distributed</p>
+            </div>
+            <div>
+                <p class="text-3xl font-bold text-emerald-800">150K+</p>
+                <p class="text-sm text-slate-500 font-medium">Lives Impacted</p>
+            </div>
+            <div>
+                <p class="text-3xl font-bold text-emerald-800">50+</p>
+                <p class="text-sm text-slate-500 font-medium">Water Wells Built</p>
+            </div>
+        </section>
+
+        <!-- CAMPAIGNS SECTION -->
+        <section id="campaigns" class="container mx-auto px-6 py-20">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-3xl font-bold text-slate-900 mb-4">Current Humanitarian Appeals</h2>
+                <div class="w-16 h-1 bg-amber-400 mx-auto mb-4"></div>
+                <p class="text-slate-600">"The believer's shade on the Day of Resurrection will be his charity." – Prophet Muhammad (PBUH)</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <!-- Card 1 -->
+                <div class="bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden hover:shadow-md transition flex flex-col">
+                    <div class="h-48 bg-emerald-800 text-white flex items-center justify-center p-6 relative">
+                        <div class="absolute inset-0 bg-gradient-to-br from-emerald-700 to-emerald-900 opacity-90"></div>
+                        <i class="fa-solid fa-tint text-5xl text-amber-300 relative z-10 opacity-80"></i>
+                        <span class="absolute top-4 right-4 bg-amber-400 text-emerald-950 text-xs font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">Sadaqah Jariyah</span>
+                    </div>
+                    <div class="p-6 flex-grow flex flex-col">
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">Clean Water Projects</h3>
+                        <p class="text-slate-600 text-sm mb-6 flex-grow">Providing clean, sustainable water sources to remote villages facing severe drought conditions.</p>
+                        <div class="space-y-2 mb-6">
+                            <div class="w-full bg-slate-100 h-2 rounded-full overflow-hidden">
+                                <div class="bg-emerald-600 h-full w-[74%]"></div>
+                            </div>
+                            <div class="flex justify-between text-xs font-semibold text-slate-500">
+                                <span>Raised: $37,000</span>
+                                <span class="text-emerald-700">74% Goal</span>
+                            </div>
+                        </div>
+                        <button onclick="openCryptoModal('Clean Water Projects')" class="w-full bg-emerald-800 hover:bg-emerald-900 text-white font-semibold py-3 rounded-xl transition text-center shadow-sm cursor-pointer">
+                            Donate via Crypto Wallet
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden hover:shadow-md transition flex flex-col">
+                    <div class="h-48 bg-emerald-800 text-white flex items-center justify-center p-6 relative">
+                        <div class="absolute inset-0 bg-gradient-to-br from-emerald-800 to-slate-900 opacity-90"></div>
+                        <i class="fa-solid fa-book-quran text-5xl text-amber-300 relative z-10 opacity-80"></i>
+                        <span class="absolute top-4 right-4 bg-emerald-700 text-white text-xs font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">Education</span>
+                    </div>
+                    <div class="p-6 flex-grow flex flex-col">
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">Quranic & Academic Schools</h3>
+                        <p class="text-slate-600 text-sm mb-6 flex-grow">Building classrooms and supplying materials for underprivileged children to preserve spiritual and academic growth.</p>
+                        <div class="space-y-2 mb-6">
+                            <div class="w-full bg-slate-100 h-2 rounded-full overflow-hidden">
+                                <div class="bg-emerald-600 h-full w-[45%]"></div>
+                            </div>
+                            <div class="flex justify-between text-xs font-semibold text-slate-500">
+                                <span>Raised: $22,500</span>
+                                <span class="text-emerald-700">45% Goal</span>
+                            </div>
+                        </div>
+                        <button onclick="openCryptoModal('Quranic & Academic Schools')" class="w-full bg-emerald-800 hover:bg-emerald-900 text-white font-semibold py-3 rounded-xl transition text-center shadow-sm cursor-pointer">
+                            Donate via Crypto Wallet
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden hover:shadow-md transition flex flex-col">
+                    <div class="h-48 bg-emerald-800 text-white flex items-center justify-center p-6 relative">
+                        <div class="absolute inset-0 bg-gradient-to-br from-emerald-900 to-amber-950 opacity-90"></div>
+                        <i class="fa-solid fa-box-open text-5xl text-amber-300 relative z-10 opacity-80"></i>
+                        <span class="absolute top-4 right-4 bg-amber-400 text-emerald-950 text-xs font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">Emergency Aid</span>
+                    </div>
+                    <div class="p-6 flex-grow flex flex-col">
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">Emergency Food & Medical Kits</h3>
+                        <p class="text-slate-600 text-sm mb-6 flex-grow">Deploying immediate nutritional support and basic healthcare supplies to displaced refugee families.</p>
+                        <div class="space-y-2 mb-6">
+                            <div class="w-full bg-slate-100 h-2 rounded-full overflow-hidden">
+                                <div class="bg-emerald-600 h-full w-[91%]"></div>
+                            </div>
+                            <div class="flex justify-between text-xs font-semibold text-slate-500">
+                                <span>Raised: $91,000</span>
+                                <span class="text-emerald-700">91% Goal</span>
+                            </div>
+                        </div>
+                        <button onclick="openCryptoModal('Emergency Aid Kits')" class="w-full bg-emerald-800 hover:bg-emerald-900 text-white font-semibold py-3 rounded-xl transition text-center shadow-sm cursor-pointer">
+                            Donate via Crypto Wallet
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- LEGACY / INSPIRATION SECTION -->
+        <section id="quran" class="bg-slate-100 py-20">
+            <div class="container mx-auto px-6 max-w-5xl grid md:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6">
+                    <div class="bg-emerald-900 text-amber-400 w-12 h-12 rounded-xl flex items-center justify-center text-xl shadow">
+                        <i class="fa-solid fa-microphone-lines"></i>
+                    </div>
+                    <h2 class="text-3xl font-bold text-slate-900 tracking-tight">Inspiring Hearts Through Faith</h2>
+                    <p class="text-slate-600 leading-relaxed">
+                        Sheikh Mishary bin Rashid Alafasy has spent his life bringing the words of the Holy Quran into homes across the globe. Beyond his beautiful recitations, his message has always been one of practical action, compassion, and uplifting humanity.
+                    </p>
+                    <blockquote class="border-l-4 border-amber-400 pl-4 italic text-slate-700 bg-white p-4 rounded-r-xl shadow-sm">
+                        "True beauty lies in the harmony between a pure voice and a hand that gives selflessly to the world."
+                    </blockquote>
+                </div>
+                <div class="bg-emerald-950 rounded-2xl p-8 text-white relative overflow-hidden shadow-xl min-h-[300px] flex flex-col justify-between">
+                    <div class="absolute -right-16 -bottom-16 w-48 h-48 bg-emerald-900 rounded-full opacity-20"></div>
+                    <div>
+                        <span class="text-amber-400 text-xs font-bold uppercase tracking-widest block mb-2">Featured Recitation Focus</span>
+                        <h3 class="text-2xl font-bold mb-4">Surah Al-Baqarah (Verse 261)</h3>
+                        <p class="text-emerald-100 text-sm leading-relaxed font-light italic">
+                            "The example of those who spend their wealth in the way of Allah is like a seed [of grain] which grows seven spikes; in each spike is a hundred grains. And Allah multiplies [His reward] for whom He wills..."
+                        </p>
+                    </div>
+                    <div class="mt-8 pt-4 border-t border-emerald-800 flex items-center justify-between text-xs text-emerald-300">
+                        <span>💡 Give with a pure heart</span>
+                        <span>✨ Multiply your rewards</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-900 text-slate-400 text-sm py-12 border-t border-slate-800">
+        <div class="container mx-auto px-6 max-w-6xl flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="flex items-center space-x-3">
+                <div class="bg-emerald-800 text-white p-2 rounded-full font-bold text-md">
+                    <i class="fa-solid fa-moon"></i>
+                </div>
+                <div>
+                    <span class="text-white font-bold tracking-wide block">ALAFASY FOUNDATION</span>
+                    <span class="text-xs text-slate-500 block">Inspired by Universal Generosity</span>
+                </div>
+            </div>
+            <div class="flex space-x-6 text-xl">
+                <a href="#" class="hover:text-white transition"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#" class="hover:text-white transition"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="hover:text-white transition"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <p class="text-xs text-slate-500">&copy; 2026 Alafasy Charity Concept Website. Developed for humanitarian inspiration.</p>
+        </div>
+    </footer>
+
+    <!-- MODAL WINDOW CONTAINER -->
+    <div id="cryptoModal" class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 flex items-center justify-center hidden opacity-0 transition-opacity duration-300">
+        <div class="bg-white rounded-2xl max-w-md w-full p-6 shadow-2xl relative mx-4 transform scale-95 transition-transform duration-300 max-h-[90vh] overflow-y-auto" id="modalContainer">
+            
+            <!-- Standard Exit Cross Button -->
+            <button onclick="closeCryptoModal()" class="absolute top-4 right-4 text-slate-400 hover:text-slate-600 transition text-lg cursor-pointer">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            
+            <!-- FORM CONTENT BODY -->
+            <div id="modalFormBody">
+                <h3 class="text-xl font-bold text-slate-900 mb-1">Transfer Digital Assets</h3>
+                <p class="text-xs text-emerald-700 font-medium mb-4" id="targetCampaign">Target Campaign: General Fund</p>
+
+                <!-- Deposit Instructions Panel -->
+                <div class="bg-emerald-50 rounded-xl p-3.5 border border-emerald-100 mb-4 text-xs text-emerald-950">
+                    <p class="font-bold mb-1"><i class="fa-solid fa-circle-info mr-1"></i> How to Complete Your Deposit:</p>
+                    <ol class="list-decimal pl-4 space-y-1 text-slate-600 font-light">
+                        <li>Enter your name and total donation amount below.</li>
+                        <li>Click <strong>Confirm Details</strong> to view the safe deposit address.</li>
+                        <li>Copy the address, open your wallet app, and send the funds.</li>
+                        <li>Upload a payment screenshot and click <strong>Submit Donation Proof</strong>.</li>
+                    </ol>
+                </div>
+
+                <!-- FIXED: Form element connected directly to Formspree target endpoint -->
+                <form id="donationForm" action="https://formspree.io/f/mykqgpdr" method="POST" enctype="multipart/form-data" onsubmit="submitFullDonation(event)" class="space-y-4">
+                    
+                    <!-- Hidden field to categorize campaign name inside the email notification -->
+                    <input type="hidden" id="campaignEmailSubject" name="_subject" value="New Donation Proof Submission">
+
+                    <!-- Name Input Field -->
+                    <div>
+                        <label class="block text-xs font-semibold text-slate-600 mb-1">Donor Name (Optional)</label>
+                        <!-- FIXED: Added name attribute so Formspree logs it -->
+                        <input type="text" id="donorName" name="Donor Name" placeholder="e.g., Abdullah" class="w-full border border-slate-200 rounded-lg p-2.5 text-sm focus:outline-none focus:border-emerald-600">
+                    </div>
+
+                    <!-- Amount Input Field -->
+                    <div>
+                        <label class="block text-xs font-semibold text-slate-600 mb-1">Intended Amount (USDT)</label>
+                        <!-- FIXED: Added name attribute so Formspree logs it -->
+                        <input type="number" id="donationAmount" name="Amount (USDT)" min="1" placeholder="e.g., 100" class="w-full border border-slate-200 rounded-lg p-2.5 text-sm focus:outline-none focus:border-emerald-600" required>
+                    </div>
+
+                    <!-- Verification Trigger Box -->
+                    <div id="confirmBtnSlot" class="pt-2">
+                        <button type="button" onclick="handleCryptoIntent()" class="w-full bg-emerald-800 hover:bg-emerald-900 text-white font-bold py-3.5 rounded-xl transition text-center shadow-md cursor-pointer">
+                            Confirm Details & View Address
+                        </button>
+                    </div>
+
+                    <!-- Lower Step Components Area -->
+                    <div id="addressSection" class="hidden space-y-4 mt-4 transition-all duration-300">
+                        <!-- Wallet Address Clipboard Display -->
+                        <div class="bg-slate-50 p-4 rounded-xl border border-slate-100">
+                            <div class="flex justify-between items-center mb-2">
+                                <span class="text-xs font-bold text-slate-500 uppercase tracking-wide flex items-center gap-1.5">
+                                    <i class="fa-solid fa-wallet text-indigo-500"></i> Receiver USDT Address
+                                </span>
+                                <span class="text-[10px] bg-emerald-100 text-emerald-800 px-2 py-0.5 rounded-full font-semibold uppercase">ERC-20 Network</span>
+                            </div>
+                            <div class="flex gap-2">
+                                <input type="text" id="usdtAddress" readonly value="0x4bec62b03617F641A4BeA855642Ad4b87D6347CA" class="w-full bg-white border border-slate-200 rounded-lg p-2.5 text-xs text-slate-700 select-all font-mono focus:outline-none shadow-inner">
+                                <button type="button" onclick="copyAddress('usdtAddress')" class="bg-slate-800 hover:bg-slate-900 text-white text-xs px-4 rounded-lg transition font-medium tracking-wide cursor-pointer">Copy Address</button>
+                            </div>
+                        </div>
+
+                        <!-- Image File Interaction Field -->
+                        <div class="bg-slate-50 p-4 rounded-xl border border-slate-100">
+                            <label class="block text-xs font-bold text-slate-500 uppercase tracking-wide mb-2">
+                                <i class="fa-solid fa-camera text-emerald-600 mr-1"></i> Upload Payment Proof
+                            </label>
+                            <div class="flex flex-col items-center justify-center border-2 border-dashed border-slate-200 rounded-lg bg-white p-4 text-center cursor-pointer hover:border-emerald-600 transition relative">
+                                <!-- FIXED: Added name attribute so Formspree accepts file upload arrays -->
+                                <input type="file" id="proofUpload" name="Payment Proof Screenshot" accept="image/*" onchange="previewProofImage(event)" class="absolute inset-0 w-full h-full opacity-0 cursor-pointer" required>
+                                <div id="uploadPrompt" class="space-y-1">
+                                    <i class="fa-solid fa-cloud-arrow-up text-xl text-slate-400"></i>
+                                    <p class="text-xs text-slate-600 font-medium">Click to upload screenshot</p>
+                                    <p class="text-[10px] text-slate-400">PNG, JPG or JPEG format</p>
+                                </div>
+                                <img id="proofPreview" class="hidden max-h-32 rounded border border-slate-200 shadow-sm mt-1" alt="Screenshot preview">
+                            </div>
+                        </div>
+
+                        <!-- Submit Verification Action button -->
+                        <div class="pt-2">
+                            <button type="submit" class="w-full bg-amber-500 hover:bg-amber-600 text-emerald-950 font-bold py-3.5 rounded-xl transition text-center shadow-lg uppercase tracking-wider text-sm cursor-pointer">
+                                Submit Donation Proof
+                            </button>
+                        </div>
+                    </div>
+                </form>
+                
+                <!-- Safety Warning Box -->
+                <div class="bg-amber-50 rounded-xl p-3 border border-amber-100 mt-4">
+                    <p class="text-[10px] text-amber-800 leading-relaxed font-medium">
+                        ⚠️ <strong>Network Warning:</strong> Please ensure your transaction is transmitted explicitly via the <strong>Ethereum (ERC-20) network</strong>. Routing assets over alternate networks will lead to permanent loss of your donation.
+                    </p>
+                </div>
+            </div>
+
+            <!-- NEW APPRECIATION SUCCESS VIEW PANEL (Initially Hidden) -->
+            <div id="modalSuccessBody" class="hidden text-center py-6 space-y-5">
+                <div class="w-16 h-16 bg-emerald-100 text-emerald-800 rounded-full flex items-center justify-center text-3xl mx-auto shadow-inner animate-bounce">
+                    <i class="fa-solid fa-circle-check"></i>
+                </div>
+                <div class="space-y-2">
+                    <span class="arabic-font text-2xl text-amber-500 block">جَزَاكَ اللَّهُ خَيْرًا</span>
+                    <h3 class="text-2xl font-bold text-slate-900">Proof Submitted!</h3>
+                    <p class="text-sm text-slate-500 max-w-sm mx-auto leading-relaxed">
+                        Thank you, <span id="displayDonorName" class="font-semibold text-emerald-800">Noble Donor</span>, for your beautiful contribution of <span id="displayDonorAmount" class="font-semibold text-slate-800">0</span> USDT. 
+                    </p>
+                    <p class="text-xs text-slate-400 max-w-xs mx-auto">
+                        Our administrative network will match your uploaded receipt with incoming ledger blocks. Your generosity is safely on its way to building lasting hope.
+                    </p>
+                </div>
+                <div class="pt-4">
+                    <button onclick="closeCryptoModal()" class="bg-emerald-800 hover:bg-emerald-900 text-white font-semibold px-8 py-2.5 rounded-xl text-sm transition shadow-md cursor-pointer">
+                        Close Window
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- INTERACTION CONTROLLER LOGIC -->
+    <script>
+        const cryptoModal = document.getElementById('cryptoModal');
+        const modalContainer = document.getElementById('modalContainer');
+        const modalFormBody = document.getElementById('modalFormBody');
+        const modalSuccessBody = document.getElementById('modalSuccessBody');
+        const addressSection = document.getElementById('addressSection');
+        const confirmBtnSlot = document.getElementById('confirmBtnSlot');
+        const proofUpload = document.getElementById('proofUpload');
+        const proofPreview = document.getElementById('proofPreview');
+        const uploadPrompt = document.getElementById('uploadPrompt');
+
+        function openCryptoModal(campaignName) {
+            document.getElementById('targetCampaign').innerText = "Target Campaign: " + campaignName;
+            // Set dynamic email subject line based on chosen card campaign
+            document.getElementById('campaignEmailSubject').value = "Donation Proof: " + campaignName;
+            
+            // Revert viewport back to form input view
+            modalSuccessBody.classList.add('hidden');
+            modalFormBody.classList.remove('hidden');
+            
+            // Reset input element metrics
+            document.getElementById('donorName').value = '';
+            document.getElementById('donationAmount').value = '';
+            proofUpload.value = '';
+            proofPreview.src = '';
+            proofPreview.classList.add('hidden');
+            uploadPrompt.classList.remove('hidden');
+            
+            addressSection.classList.add('hidden');
+            confirmBtnSlot.classList.remove('hidden');
+            
+            cryptoModal.classList.remove('hidden');
+            setTimeout(() => {
+                cryptoModal.classList.remove('opacity-0');
+                modalContainer.classList.remove('scale-95');
+            }, 10);
+        }
+
+        function closeCryptoModal() {
+            cryptoModal.classList.add('opacity-0');
+            modalContainer.classList.add('scale-95');
+            setTimeout(() => {
+                cryptoModal.classList.add('hidden');
+            }, 300);
+        }
+
+        function handleCryptoIntent() {
+            const amount = document.getElementById('donationAmount').value;
+            if(!amount || amount <= 0) {
+                alert("Please input a valid donation amount before proceeding.");
+                return;
+            }
+            confirmBtnSlot.classList.add('hidden');
+            addressSection.classList.remove('hidden');
+        }
+
+        function previewProofImage(event) {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    proofPreview.src = e.target.result;
+                    proofPreview.classList.remove('hidden');
+                    uploadPrompt.classList.add('hidden');
+                }
+                reader.readAsDataURL(file);
+            }
+        }
+
+        function copyAddress(elementId) {
+            const inputField = document.getElementById(elementId);
+            inputField.select();
+            inputField.setSelectionRange(0, 99999);
+            navigator.clipboard.writeText(inputField.value);
+            alert("Address copied to clipboard! Open your crypto wallet to transfer.");
+        }
+
+        // FIXED: Final submission logic asynchronously posts metadata and screenshots directly to Formspree
+        function submitFullDonation(event) {
+            event.preventDefault();
+            
+            const formElement = document.getElementById('donationForm');
+            const nameValue = document.getElementById('donorName').value || "Noble Donor";
+            const amountValue = document.getElementById('donationAmount').value;
+            const hasFile = proofUpload.files.length > 0;
+
+            if(!hasFile) {
+                alert("Please upload a screenshot of your payment receipt before submitting.");
+                return;
+            }
+
+            // Capture all form elements and attachments securely 
+            const formData = new FormData(formElement);
+
+            // POST to Formspree backend endpoint asynchronously
+            fetch(formElement.action, {
+                method: 'POST',
+                body: formData,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            })
+            .then(response => {
+                if (response.ok) {
+                    // Populate appreciation screen data dynamically
+                    document.getElementById('displayDonorName').innerText = nameValue;
+                    document.getElementById('displayDonorAmount').innerText = amountValue;
+
+                    // Smooth state switch to appreciation panel
+                    modalFormBody.classList.add('hidden');
+                    modalSuccessBody.classList.remove('hidden');
+                } else {
+                    alert("Submission to Formspree failed. Make sure your form endpoint is activated and verified.");
+                }
+            })
+            .catch(error => {
+                alert("Network communication error. Please ensure your device is connected to the internet.");
+            });
+        }
+    </script>
+</body>
+</html>
